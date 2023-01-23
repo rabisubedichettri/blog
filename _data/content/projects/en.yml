@@ -1,0 +1,30 @@
+# you can move this content to front matter of [language]/tabs/projects.md
+###########################################################
+#                Projects Page Data
+###########################################################
+page_data:
+  main:
+    header: "My Projects"
+    info: "Change is not made without inconvenience, even from worse to better. ~ Samuel Johnson"
+    text_color: "white"
+    # if you don't want to use background image, comment it. back_color will be activated.
+    img: ":project-cover.jpg"
+    back_color: "black"
+
+  category:
+    - title: "real_estate_portal"
+      type: id_real_estate_portal
+      color: "gray"
+
+  list:
+    - type: id_real_estate_portal
+      project_name: "Real Estate Portal API"
+      project_excerpt: "Don’t wait to buy real estate. Buy real estate and wait."
+      img: ":real_estate_portal.jpg"
+      img_title: "Real Estate"
+      date: "2021-11-16"
+      post: |
+       It is an API based real estate portal with a subscription-based model 
+       where anyone can list properties for sale through their site's backend.
+       Here buyers and sellers can communicate with each other through a chat system 
+       and can find a property based on geolocation.
